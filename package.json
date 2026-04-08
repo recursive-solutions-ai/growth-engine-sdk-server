@@ -1,0 +1,24 @@
+{
+  "name": "@growth-engine/sdk-server",
+  "version": "0.1.10",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "node": "./index.js",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "growth-engine-pull-forms": "./dist/pull-forms.js"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.38.0",
+    "@libsql/client": "^0.15.0",
+    "nanoid": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
